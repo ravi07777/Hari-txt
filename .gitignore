@@ -1,0 +1,40 @@
+# ===== SECRETS - NEVER COMMIT THESE =====
+.env
+device_private_key.txt
+device_client_id_blob
+youtube_cookies.txt
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ===== Downloads & temp files =====
+downloads/
+*.mp4
+*.mkv
+*.webm
+*.mp3
+*.wav
+*.m4a
+*.pdf
+*.jpg
+*.jpeg
+*.png
+thumb.jpg
+*.txt.session
+bot.session
+bot.session-journal
+logs.txt
+
+# ===== Virtual env =====
+venv/
+env/
+.venv/
